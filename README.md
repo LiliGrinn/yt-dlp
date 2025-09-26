@@ -88,16 +88,16 @@ yt-dlp is a feature-rich command-line audio/video downloader with support for [t
 <!-- MANPAGE: END EXCLUDED SECTION -->
 
 
-
+```
 In UNIX-like OSes (MacOS, Linux, BSD), you can also install the application into a location in your $PATH, such as ~/.local/bin, in one of the following ways:
 
 sudo wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -O /usr/local/bin/yt-dlp
 sudo chmod a+rx /usr/local/bin/yt-dlp  # Make executable
-
+```
 To update, run:
-
+```
 sudo yt-dlp -U
-
+```
 To use shell completion (autocomplete), look for the completion files in the source tarball. It comes with bash, fish & zsh support.
 You can install yt-dlp using [the binaries](#release-files), [pip](https://pypi.org/project/yt-dlp) or one using a third-party package manager. See [the wiki](https://github.com/yt-dlp/yt-dlp/wiki/Installation) for detailed instructions
 
